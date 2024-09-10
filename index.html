@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Restaurante Sabor Brasileiro - Peça Online</title>
+  <link rel="stylesheet" href="./css/global.css"/>
+  <link rel="stylesheet" href="./css/style.css"/>
+</head>
+<body>
+  <nav class="navigation">
+    <a href="#about">Sobre Nós</a>
+    <a href="#menu">Menu</a>
+    <a href="#order">Peça Online</a>
+  </nav>
+  <div class="container">
+    <header class="header">
+      <div class="title-blur">
+        <div id="title">
+          <span>Restaurante</span>
+          <h1>Sabor Brasileiro</h1>
+        </div>
+      </div>
+    </header>
+    <section id="about">
+      <p>O Restaurante Sabor Brasileiro oferece uma experiência gastronômica única, com pratos que celebram a culinária tradicional brasileira. Visite-nos ou peça online!</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis in iure magnam perferendis, illo, voluptatum soluta id libero itaque nisi necessitatibus? A sed magni nisi culpa voluptatem sunt facere eveniet.</p>
+      <p>Velit aliquam minus fuga nemo reprehenderit repellendus qui rerum illo ducimus? Cupiditate in vel fuga! Esse nobis deserunt expedita dolores corrupti quod vitae autem, odio sed! Explicabo aperiam cupiditate itaque!</p>
+      <p>Impedit a dolorem aperiam eius consectetur, quia et explicabo cupiditate soluta nobis fugiat. Vitae esse sit doloribus architecto optio quibusdam, sint perspiciatis labore at assumenda quis, deleniti, voluptatum fugit. Itaque!</p>
+    </section>
+    <section id="menu">
+      <div class="scroll">
+        <div id="item1">
+          <img src="./img/feijoada.jpg" alt=""/>
+          <span>Feijoada</span>
+        </div>
+        <div id="item2">
+          <img src="./img/moqueca.jpg" alt=""/>
+          <span>Moqueca</span>
+        </div>
+        <div id="item3">
+          <img src="./img/paodequeijo.jpg" alt=""/>
+          <span>Pão de Queijo</span>
+        </div>
+        <div id="item4">
+          <img src="./img/tapioca.jpg" alt=""/>
+          <span>Tapioca</span>
+        </div>
+        <div id="item5">
+          <img src="./img/mais.jpg" alt=""/>
+          <span>Muito mais!</span>
+        </div>
+      </div>
+    </section>
+    <section id="order">
+      <form>
+        <h2>Peça online agora mesmo!</h2>
+        <fieldset class="field">
+          <legend>Dados para Entrega</legend>
+          <input type="text" name="" id="name"
+          class="input-style" placeholder="Nome"/>
+          <input type="text" name="" id="address"
+          class="input-style" placeholder="Endereço"/>
+          <input type="tel" name="" id="phone"
+          class="input-style" placeholder="(00) 00000-0000"/>
+        </fieldset>
+        <fieldset class="field">
+          <legend>Escolha seu Pedido</legend>
+          <select name="" id="customer-order" class="input-style">
+            <option value="feijoada" disabled>Escolha seu pedido</option>
+            <option value="feijoada">Feijoada</option>
+            <option value="moqueca">Moqueca</option>
+            <option value="pao-de-queijo">Pão de Queijo</option>
+            <option value="tapioca">Tapioca</option>
+            <option value="frango-assado">Frango Assado</option>
+            <option value="farofa">Farofa</option>
+          </select>
+          <textarea name="" id="" class="input-style" placeholder="Instruções especiais"></textarea>
+        </fieldset>
+        <fieldset class="payment">
+          <legend>Forma de Pagamento</legend>
+          <label for="pix">
+            <input type="radio" name="pay-method" id="pix"/>
+            PIX
+          </label>
+          <label for="credit">
+            <input type="radio" name="pay-method" id="credit"/>
+            Crédito
+          </label>
+          <label for="debit">
+            <input type="radio" name="pay-method" id="debit"/>
+            Débito
+          </label>
+        </fieldset>
+        <button>Enviar Pedido</button>
+      </form>
+    </section>
+    <footer>Victor Gnoato @ 2024</footer>
+  </div>
+</body>
+</html>
